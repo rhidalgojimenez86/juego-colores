@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+#contenedorcolores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.color-box {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#puntos {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#selectordificultad {
+    margin-bottom: 20px;
+}
+
+#selectordificultad label, #selectordificultad select, #selectordificultad button {
+    margin-right: 10px;
+}

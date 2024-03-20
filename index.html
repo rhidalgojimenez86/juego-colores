@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adivina el Color</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id="contenedor">
+    <h1 id="codigocolor"></h1>
+    <div id="contenedorcolores"></div>
+    <div id="puntos">Aciertos: 0 / Fallos: 0</div>
+    <div id="selectordificultad">
+        <label for="dificultad">Selecciona la dificultad:</label>
+        <select id="dificultad">
+            <option value="1">Fácil</option>
+            <option value="2">Normal</option>
+            <option value="3">Difícil</option>
+        </select>
+        <button id="comenzar">Comenzar</button>
+    </div>
+</div>
+
+<script src="adivinaelcolor.js"></script>
+</body>
+</html>
